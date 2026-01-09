@@ -7,7 +7,18 @@ This project was developed as part of the **Huawei Tech Arena Hackathon**, where
 ---
 
 ## 🧠 Problem Statement
-Large Language Models often produce responses without grounding in domain-specific data. The challenge was to design a system that enhances answer reliability by integrating **retrieval mechanisms with generative AI**.
+Your objective is to create an efficient Large Language Model (LLM) inference pipeline
+for single-round question answering. Therefore, the pipeline does not need to retain
+any conversational history. Common LLM inference optimization techniques include:
+• Context and Orchestration - RAG, knowledge graphs, tools (e.g. calculators),
+prompt engineering, etc.
+• Deployment and Serving - specialized accelerators, asynchronous serving, prefix
+and response caching, etc.
+• Model Design - quantization, pruning, optimized attention mechanisms, token fusion,
+model merging, low-rank factorization, etc.
+The proposed solution will be assessed against the following performance metrics:
+• Accuracy through an LLM-as-a-Judge
+• End-to-End Latency
 
 ---
 
