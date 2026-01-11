@@ -40,6 +40,7 @@ The system follows a **Retrieval-Augmented Generation (RAG)** pipeline:
   - Prompt Engineering  
   - Few-Shot Learning  
   - Hyperparameter Tuning  
+  - Chroma DB
 
 ---
 
